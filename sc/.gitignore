@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Environment files — real keys go in .env (never commit)
+.env*
+!.env.example
+
+# Deployment artifacts — contain deployer address, regenerate from deploy script
+deployments/*.json
+
+# Logs
+*.log
+
+# TypeScript build info
+*.tsbuildinfo

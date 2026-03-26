@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="frontend/public/logo.svg" width="120" height="120" alt="Kodok-Kodok">
+</p>
+
 # Kodok-Kodok
 
 > *"Di Bangka Belitung, setiap pesta pasti ada Kodok-Kodok."*
