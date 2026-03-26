@@ -15,6 +15,8 @@
 
 **On-Chain:** [Verify deploy TX on onescan.cc →](https://onescan.cc/testnet/transactionBlocksDetail?digest=BU4ikh8iRphnYW759SQzkKWXJgxnBGL8XmjyzS6Fg7cV)
 
+**Video Demo:** [Watch on YouTube →](https://youtu.be/Vt-n1u51WSA)
+
 ---
 
 ## The Story Behind the Game
