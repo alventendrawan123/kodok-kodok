@@ -71,16 +71,45 @@ sequenceDiagram
 
 ---
 
-## Payout Table
+## Game Mechanics
 
-| Dice Matches | Multiplier | Net Return |
-|:---:|:---:|:---:|
-| 0 | 0x | −100% |
-| 1 | 2x | +100% |
-| 2 | 3x | +200% |
-| 3 | 4x | +300% |
+### How Betting Works (All Game Modes)
 
-House edge: **−7.87%** (−17/216 across all possible outcomes). Fixed, transparent, and verifiable from the contract source.
+All four game modes share the same core dice mechanic: 3 dice are rolled, each showing one of 6 symbols (Frog, Crab, Fish, Shrimp, Gourd, Wheel). Players bet on which symbols will appear. Payouts scale with the number of matching dice:
+
+| Dice Matches | Multiplier | Net Return | Example (10 HKT bet) |
+|:---:|:---:|:---:|:---:|
+| 0 matches | 0x | −100% | Lose 10 HKT |
+| 1 match | 2x | +100% | Win 10 HKT profit |
+| 2 matches | 3x | +200% | Win 20 HKT profit |
+| 3 matches | 4x | +300% | Win 30 HKT profit |
+
+### House Edge (Play Mode — vs Treasury)
+
+When playing against the house treasury (Play page):
+
+- House edge: **−7.87%** (−17/216 across all 216 possible outcomes)
+- Fixed, transparent, and verifiable from the contract source
+- Treasury funded with HKT to guarantee all payouts
+
+### Social Table (PvP Mode — vs Banker)
+
+When playing at a Social Table:
+
+- No fixed house edge — the banker takes all losing bets
+- Banker's profit or loss depends entirely on the dice outcome
+- Collateral locked on-chain guarantees all payouts to winners
+- Anyone can become the banker by depositing collateral
+
+### Game Modes Comparison
+
+| Feature | Play (vs House) | Social Table (PvP) | Tournament | Prediction |
+|---|---|---|---|---|
+| Opponent | Treasury | Another player | Leaderboard | Pool |
+| Who rolls? | Smart contract | Banker (player) | Smart contract | N/A |
+| Payout source | House treasury | Banker collateral | Prize pool | Prediction pool |
+| House edge | 7.87% fixed | 0% (banker risk) | Entry fee | 3% protocol fee |
+| Can you be the house? | No | Yes | No | No |
 
 ---
 
