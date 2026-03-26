@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="frontend/public/logo.svg" width="120" height="120" alt="Kodok-Kodok">
+  <img src="https://raw.githubusercontent.com/alventendrawan123/kodok-kodok/main/frontend/public/logo.svg" width="120" height="120" alt="Kodok-Kodok">
 </p>
 
 # Kodok-Kodok
