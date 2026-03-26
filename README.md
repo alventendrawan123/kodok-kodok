@@ -13,6 +13,8 @@
 
 **Live Demo:** [kodok-kodok.vercel.app](https://kodok-kodok.vercel.app) &nbsp;|&nbsp; **Built for OneHack 3.0** — OneChain Testnet
 
+**On-Chain:** [Verify deploy TX on onescan.cc →](https://onescan.cc/testnet/transactionBlocksDetail?digest=BU4ikh8iRphnYW759SQzkKWXJgxnBGL8XmjyzS6Fg7cV)
+
 ---
 
 ## The Story Behind the Game
@@ -208,11 +210,13 @@ No single party controls the outcome. The caller provides entropy; the chain pro
 
 ### Transaction Proofs
 
+Click any digest to verify on onescan.cc:
+
 | Action | TX Digest |
 |---|---|
-| Contract Deploy | `BU4ikh8iRphnYW759SQzkKWXJgxnBGL8XmjyzS6Fg7cV` |
-| Fund House | `7wPDkt2pRZvnFeHT3yYaS41VFnicZuDAeQHTcs8uiqpJ` |
-| Create Tournament | `9pfr2yuM7UE6oHEmovKvEkMiLnQMZRrL5QP1sH1eA8ru` |
+| Contract Deploy | [`BU4ikh8i...`](https://onescan.cc/testnet/transactionBlocksDetail?digest=BU4ikh8iRphnYW759SQzkKWXJgxnBGL8XmjyzS6Fg7cV) |
+| Fund House | [`7wPDkt2p...`](https://onescan.cc/testnet/transactionBlocksDetail?digest=7wPDkt2pRZvnFeHT3yYaS41VFnicZuDAeQHTcs8uiqpJ) |
+| Create Tournament | [`9pfr2yuM...`](https://onescan.cc/testnet/transactionBlocksDetail?digest=9pfr2yuM7UE6oHEmovKvEkMiLnQMZRrL5QP1sH1eA8ru) |
 
 ---
 
