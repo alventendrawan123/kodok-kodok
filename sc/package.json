@@ -1,0 +1,21 @@
+{
+  "name": "kodok-kodok-sc",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "tsx scripts/deploy.ts",
+    "merge-and-deploy": "tsx scripts/merge-and-deploy.ts",
+    "fund-house": "tsx scripts/fund-house.ts",
+    "create-tournament": "tsx scripts/create-tournament.ts",
+    "fund-player": "tsx scripts/fund-player.ts"
+  },
+  "dependencies": {
+    "@onelabs/sui": "^1.26.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.10",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}

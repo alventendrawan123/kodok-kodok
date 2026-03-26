@@ -1,0 +1,13 @@
+[package]
+name = "hackathon"
+edition = "2024.beta"
+published-at = "0x8b76fc2a2317d45118770cefed7e57171a08c477ed16283616b15f099391f120"
+
+[dependencies]
+# Framework is auto-bundled by the OneChain CLI.
+
+[addresses]
+# CRITICAL: This address must match the ACTUAL deployed HACKATHON token on OneChain testnet.
+# By declaring the same address here, all compiled type references resolve to the real
+# on-chain package — so our Coin<HACKATHON> is compatible with actual HACKATHON tokens.
+hackathon = "0x8b76fc2a2317d45118770cefed7e57171a08c477ed16283616b15f099391f120"

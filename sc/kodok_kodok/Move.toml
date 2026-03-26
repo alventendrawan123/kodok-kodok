@@ -1,0 +1,21 @@
+[package]
+name = "kodok_kodok"
+version = "1.0.0"
+edition = "2024.beta"
+
+[dependencies]
+# Sui / MoveStdlib / SuiSystem / Bridge are bundled automatically by the OneChain CLI.
+# DO NOT add an explicit Sui git dependency — it disables auto-bundling and triggers
+# a GitHub network fetch which fails in offline / restricted environments.
+#
+# HACKATHON token stub: a local package whose [addresses] section pins the named
+# address `hackathon` to the real deployed package address:
+#   0x8b76fc2a2317d45118770cefed7e57171a08c477ed16283616b15f099391f120
+# This lets `sui move build` and `sui move test` compile locally while ensuring
+# every `Coin<HACKATHON>` / `Balance<HACKATHON>` reference in the compiled bytecode
+# points to the correct on-chain type at publish time.
+hackathon = { local = "../hackathon" }
+
+[addresses]
+kodok_kodok = "0x0"
+hackathon = "0x8b76fc2a2317d45118770cefed7e57171a08c477ed16283616b15f099391f120"
