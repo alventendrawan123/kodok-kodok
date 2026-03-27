@@ -291,8 +291,8 @@ The cultural experience of Kodok-Kodok remains. The central point of failure is 
 
 | Name | Role |
 |---|---|
-| Alven Tendrawan | Full Stack Engineer — smart contracts, frontend, deployment |
-| Jessica | Editor — content, documentation, UX review |
+| Alven Tendrawan | Full Stack Developer |
+| Natalie Neysa Jessica Soesanto | Editor — content/editor |
 
 ---
 
